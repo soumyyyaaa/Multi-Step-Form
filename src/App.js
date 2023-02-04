@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Sidebar from "../src/Components/Sidebar"
+import PersonalInfo from "./Pages/PersonalInfo"
+import React from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  let component;
+  switch (window.location.pathname) {
+    case "/":
+      component = <PersonalInfo />
+      break;
+    default:
+
+    }
+    return (
+      <>
+          <Sidebar />
+          {component}
+    </>
   );
 }
 

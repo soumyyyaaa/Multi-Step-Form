@@ -1,0 +1,43 @@
+.grid-item-left {
+    font-family: 'Ubuntu', sans-serif;
+    background: url("../images/bg-sidebar-desktop.svg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+    height: 100vh;
+    width: 40%;
+}
+
+.left-pane {
+    display: flex;
+    padding: 6% 10% 0;
+}
+
+.btn {
+    border-radius: 50%;
+    border: 2px solid hsl(231, 100%, 99%);
+    color: hsl(231, 100%, 99%);
+    background: transparent;
+    padding: 0 8%;
+    margin-right: 5%;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.active {
+    background-color: hsl(206, 94%, 87%);
+    color: hsl(213, 96%, 18%);
+    border-color: hsl(206, 94%, 87%);
+}
+
+.step {
+    color: hsl(231, 11%, 63%);
+}
+
+.form-description {
+    font-size: 18px;
+    color: hsl(231, 100%, 99%);
+    font-weight: 500;
+}
+

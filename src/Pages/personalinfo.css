@@ -1,0 +1,51 @@
+.grid-item-right {
+    padding: 5% 10%;
+    width: 60%;
+}
+
+.form-heading {
+    font-weight: 700;
+    color: hsl(213, 96%, 18%);
+}
+
+.form-label {
+    color: hsl(213, 96%, 18%);
+    font-weight: 500;
+}
+
+.form-input {
+    color: hsl(213, 96%, 18%);
+    font-weight: 500;
+    border: 2px solid hsl(229, 24%, 87%);
+    border-radius: 3%;
+    padding: 2%;
+    width: 80%;
+    margin: 2% auto 4% auto;
+}
+
+.form-input:hover {
+    border-color: hsl(243, 100%, 62%);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.submit {
+    padding: 2%;
+    width: 20%;
+    border-radius: 8%;
+    border: none;
+    background-color: hsl(213, 96%, 18%);
+    color: hsl(231, 100%, 99%);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    float: right;
+}
+
+.submit:hover {
+    background-color: hsl(243, 100%, 62%);
+}
