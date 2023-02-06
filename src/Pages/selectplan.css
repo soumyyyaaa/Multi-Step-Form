@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+.card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.plan {
+    border: 2px solid hsl(229, 24%, 87%);
+    border-radius: 5%;
+    padding: 8%;
+    margin-right: 8%;
+    background-color: transparent;
+    text-align: left;
+}
+
+.plan:hover {
+    border-color: hsl(243, 100%, 62%);
+    cursor: pointer;
+    background-color: hsl(217, 100%, 97%);
+}
+
+.plan-name {
+    color: hsl(213, 96%, 18%);
+    font-weight: 500;
+    margin-top: 30%;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.grid {
+    background-color: hsl(217, 100%, 97%);
+    border-radius: 5%;
+    text-align: center;
+    padding: 2%;
+    align-items: center;
+}
+
+.switch {
+    margin-left: 2%;
+    margin-right: 2%;
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hsl(213, 96%, 18%);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: hsl(213, 96%, 18%);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.go-back {
+    border: none;
+    color: hsl(231, 11%, 63%);
+    background: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    float: left;
+    margin-top: 17%;
+    text-decoration: none;
+}
+
+.go-back:hover {
+    color: hsl(213, 96%, 18%);
+}

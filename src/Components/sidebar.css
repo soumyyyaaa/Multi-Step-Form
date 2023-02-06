@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
 .grid-item-left {
     font-family: 'Ubuntu', sans-serif;
     background: url("../images/bg-sidebar-desktop.svg");
@@ -18,14 +20,14 @@
     border: 2px solid hsl(231, 100%, 99%);
     color: hsl(231, 100%, 99%);
     background: transparent;
-    padding: 0 8%;
+    padding: 0 6%;
     margin-right: 5%;
     font-size: 25px;
     cursor: pointer;
     font-weight: 700;
 }
 
-.active {
+.btn:hover {
     background-color: hsl(206, 94%, 87%);
     color: hsl(213, 96%, 18%);
     border-color: hsl(206, 94%, 87%);

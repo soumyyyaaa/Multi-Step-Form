@@ -1,4 +1,4 @@
-import React from "react";
+import React , { useState } from "react";
 import "../Pages/personalinfo.css"
 
 function PersonalInfo() {
@@ -13,12 +13,12 @@ function PersonalInfo() {
                     </p>
                     <form>
                         <label className="form-label">Name</label> <br />
-                        <input type="text" placeholder="e.g. Stephen King" className="form-input" required /> <br />
+                        <input type="text" placeholder="e.g. Stephen King" className="form-input" /> <br />
                         <label className="form-label">Email Address</label> <br />
-                        <input type="email" placeholder="e.g. stephenking@lorem.com" className="form-input" required /> <br />
+                        <input type="email" placeholder="e.g. stephenking@lorem.com" className="form-input" /> <br />
                         <label className="form-label">Phone Number</label> <br />
-                        <input type="number" placeholder="e.g. +1 234 567 890" className="form-input" required /><br />
-                        <button className="submit" href="/page2">Next Step</button>
+                        <input type="number" placeholder="e.g. +1 234 567 890" className="form-input" /><br />
+                        <button className="submit"> <a style={{color: "hsl(231, 100%, 99%)", textDecoration: "none"}} href="/selectplan">Next Step </a></button>
                     </form>
                 </div>
         </>

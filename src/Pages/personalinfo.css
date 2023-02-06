@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+
 .grid-item-right {
     padding: 5% 10%;
+    font-family: 'Ubuntu', sans-serif;
     width: 60%;
 }
 
@@ -39,9 +43,8 @@ input::-webkit-inner-spin-button {
     border-radius: 8%;
     border: none;
     background-color: hsl(213, 96%, 18%);
-    color: hsl(231, 100%, 99%);
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     cursor: pointer;
     float: right;
 }
